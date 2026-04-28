@@ -4,6 +4,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model Post {
@@ -34,6 +35,6 @@ model MarketItem {
   title       String
   description String
   price       Float
-  status      String   @default("AVAILABLE") // AVAILABLE, SOLD
+  status      String   @default("AVAILABLE")
   createdAt   DateTime @default(now())
 }
