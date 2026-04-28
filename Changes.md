@@ -24,5 +24,7 @@ By pivoting away from workplace-style task assignment and gamification, LocalCon
 ## Deployment Links
 *Please update these links after deployment.*
 
-- **Frontend Deployment Link:** [INSERT VERCEL/NETLIFY LINK HERE]
-- **Backend Deployment Link:** [INSERT RENDER/RAILWAY LINK HERE]
+- **Frontend Deployment Link:** 
+https://localconnect-frontend.vercel.app/
+- **Backend Deployment Link:** 
+https://localconnect-backend.onrender.com/
